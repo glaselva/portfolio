@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giuseppe La Selva | Web Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo"><a href="#hero">Giuseppe La Selva</a></div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            <li><a href="index.html" class="lang-switch">IT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero" class="hero">
+    <div class="hero-inner">
+        <div class="hero-avatar">
+            <img src="Immagini/giuseppe.png" alt="Foto di Giuseppe La Selva">
+        </div>
+
+        <div class="hero-content">
+            <h1>Giuseppe La Selva</h1>
+            <p class="tagline">
+                Complex problems. <span class="accent">Simple solutions.</span>
+            </p>
+            <p class="hero-subtitle">
+                Web Developer focused on modern, responsive showcase websites.
+            </p>
+            <a href="#contact" class="btn">Let's talk</a>
+        </div>
+    </div>
+</section>
+
+
+<section id="about" class="section section-alt">
+    <div class="section-inner">
+        <h2>About Me</h2>
+        <p>
+            I come from an international customer service background between London and Stavanger.
+            It taught me to really listen to people and turn their needs into clear, practical solutions.
+        </p>
+        <p>
+            Today I help freelancers and small businesses build an online presence that looks professional,
+            works smoothly on mobile and does not require technical skills to manage.
+        </p>
+
+        <h3>What I can do for you</h3>
+        <ul class="tag-list">
+            <li>Modern showcase websites</li>
+            <li>Clean, professional design</li>
+            <li>Fully responsive layouts</li>
+            <li>Service and campaign landing pages</li>
+            <li>Fast loading performance</li>
+            <li>Multi‑language, multi‑page websites</li>
+            <li>Basic on-page SEO</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="section-inner">
+        <h2>Projects</h2>
+        <p class="section-intro">
+        Here are some examples of websites and landing pages I can create
+        for professionals and small businesses.
+        </p>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Immagini/pizzeria.png" alt="Sito vetrina per Pizzeria">
+                </div>
+                <h3>Pizzeria Bari -> LDN</h3>
+                <p>
+                    A pizzeria website designed for simple and easy navigation, focusing on the menu, essential information, and usability.
+                </p>
+                <div class="project-links">
+                    <a href="https://pizzeria-website-azure.vercel.app/" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Immagini/caffetteria.png" alt="Portfolio per caffetteria nerd">
+                </div>
+                <h3>TerraByte</h3>
+                <p>
+                   Showcase website concept for a tech-themed coffee-coworking space, designed to communicate its identity,
+                   atmosphere, and target audience through a minimal and ironic style.
+                </p>
+                <div class="project-links">
+                    <a href="https://terrabyte-ruddy.vercel.app/" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/project-trainer.jpg" alt="Landing page per personal trainer">
+                </div>
+                <h3>Personal Trainer</h3>
+                <p>
+                    Landing page pensata per generare contatti: programmi,
+                    testimonianze e FAQ, ottimizzata per la navigazione da smartphone.
+                </p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/project-restaurant.jpg" alt="Sito vetrina per ristorante locale">
+                </div>
+                <h3>Ristorante Locale</h3>
+                <p>
+                    Sito vetrina con menù online, mappa integrata
+                    e pulsante per prenotazioni rapide via WhatsApp.
+                </p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/project-consultant.jpg" alt="One-page per consulente business">
+                </div>
+                <h3>Consulente Business</h3>
+                <p>
+                    One-page professionale con servizi, bio, casi studio e form contatto,
+                    pensata per dare subito credibilità e guidare al contatto.
+                </p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section section-alt">
+    <div class="section-inner section-inner-narrow contact-block">
+        <h2>Contact</h2>
+        <p>
+            If you'd like to learn more about my work or discuss a possible future collaboration, you can contact me by email or phone.
+        </p>
+
+        <div class="contact-list">
+            <a href="mailto:g.laselva@outlook.it" class="contact-main">
+                g.laselva@outlook.it
+            </a>
+            <a href="tel:+393801048346" class="contact-secondary">
+                +39 380 104 8346
+            </a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/giuseppe-laselva" target="_blank">LinkedIn</a>
+            <a href="https://github.com/glaselva" target="_blank">GitHub</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Giuseppe La Selva. All rights reserved.</p>
+    <p class="footer-privacy">
+        <a href="privacy.html">Privacy Policy</a>
+    </p>
+</footer>
+
+<script>
+function toggleMenu() {
+    const navList = document.querySelector('#nav-menu ul');
+    navList.classList.toggle('open');
+}
+
+// Chiudi il menu quando clicchi su un link (opzionale ma utile)
+document.querySelectorAll('#nav-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+        const navList = document.querySelector('#nav-menu ul');
+        navList.classList.remove('open');
+    });
+});
+</script>
+
+
+</body>
+</html>
