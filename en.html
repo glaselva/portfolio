@@ -10,7 +10,11 @@
 <body>
 
 <header>
-    <div class="logo"><a href="#hero">Giuseppe La Selva</a></div>
+    <div class="logo">
+        <a href="#hero">
+            <img src="Immagini/gls logo invisibile.png" alt="Giuseppe La Selva home" class="logo-img">
+        </a>
+    </div>
 
     <div class="hamburger" onclick="toggleMenu()">
         <span></span>
@@ -78,12 +82,13 @@
 
             <div class="project-card">
                 <div class="project-image">
-                    <img src="Immagini/pizzeria.png" alt="Sito vetrina per Pizzeria">
+                    <img src="Immagini/pizzeria.png" alt="Pizza Restaurant Website">
                 </div>
                 <h3>Pizzeria Bari -> LDN</h3>
                 <p>
-                   Website designed to reduce unnecessary phone calls ("What time do you open?") and increase bookings,
-                    thanks to a clear menu and an always-visible 'Call Now' button.
+                   Web platform for an Italian pizzeria in London designed with
+                   opimized navigation, a constantly accessible menu, and strategic WhatsApp integration
+                   in the navbar.
                 </p>
                 <div class="project-links">
                     <a href="https://pizzeria-website-azure.vercel.app/" target="_blank">Live Demo →</a>
@@ -92,7 +97,7 @@
 
             <div class="project-card">
                 <div class="project-image">
-                    <img src="Immagini/caffetteria.png" alt="Portfolio per caffetteria nerd">
+                    <img src="Immagini/caffetteria.png" alt="Website for a nerd cafe in Milan">
                 </div>
                 <h3>TerraByte</h3>
                 <p>
@@ -106,7 +111,7 @@
 
             <div class="project-card">
                 <div class="project-image">
-                    <img src="Immagini/northpier.png" alt="British Rock BAnd">
+                    <img src="Immagini/northpier.png" alt="British Rock Band">
                 </div>
                 <h3>North Pier</h3>
                 <p>
@@ -120,19 +125,33 @@
 
             <div class="project-card">
                 <div class="project-image">
-                    <img src="img/project-restaurant.jpg" alt="Sito vetrina per ristorante locale">
+                    <img src="Immagini/studiolegale.png" alt="Professional legal studio website">
                 </div>
-                <h3>Ristorante Locale</h3>
+                <h3>Legge & Diritti</h3>
                 <p>
-                    Sito vetrina con menù online, mappa integrata
-                    e pulsante per prenotazioni rapide via WhatsApp.
+                    Modern, responsive, multi-page website for a law firm. Classic HTML, CSS, and JavaScript stack,
+                    custom design system, intuitive navigation, and thoughtful graphic assets.
+                </p>
+                <div class="project-links">
+                    <a href="https://studio-legale-portfolio.vercel.app/" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/project-consultant.jpg" alt="One-page per consulente business">
+                </div>
+                <h3>Consulente Business</h3>
+                <p>
+                    One-page professionale con servizi, bio, casi studio e form contatto,
+                    pensata per dare subito credibilità e guidare al contatto.
                 </p>
                 <div class="project-links">
                     <a href="#" target="_blank">Live Demo →</a>
                 </div>
             </div>
 
-            <div class="project-card">
+                        <div class="project-card">
                 <div class="project-image">
                     <img src="img/project-consultant.jpg" alt="One-page per consulente business">
                 </div>
@@ -176,10 +195,13 @@
 </section>
 
 <footer>
-    <p>&copy; 2025 Giuseppe La Selva. All rights reserved.</p>
-    <p class="footer-privacy">
-        <a href="privacy.html">Privacy Policy</a>
-    </p>
+  <div class="footer-top">
+    <img src="Immagini/gls logo invisibile.png" alt="GLS" class="footer-logo">
+  </div>
+  <p>&copy; 2025 Giuseppe La Selva. All rights reserved.</p>
+  <p class="footer-privacy">
+    <a href="privacy.html">Privacy Policy</a>
+  </p>
 </footer>
 
 <script>
@@ -188,7 +210,6 @@ function toggleMenu() {
     navList.classList.toggle('open');
 }
 
-// Chiudi il menu quando clicchi su un link (opzionale ma utile)
 document.querySelectorAll('#nav-menu a').forEach(link => {
     link.addEventListener('click', () => {
         const navList = document.querySelector('#nav-menu ul');

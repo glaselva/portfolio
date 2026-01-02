@@ -477,3 +477,34 @@ footer p {
 .project-card:hover .project-image img {
     transform: scale(1.05);
 }
+
+.logo-img {
+  height: 120px !important;   /* Navbar: alto e dominante */
+  max-width: 260px !important;
+  width: auto !important;
+}
+
+.hero-inner {
+  display: grid !important;
+  grid-template-columns: auto 220px 1fr !important; /* Logo | Foto | Testo */
+  gap: 4rem !important;
+  align-items: start !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+.hero-inner {
+  display: flex !important;
+  gap: 4rem !important;     /* Solo foto + testo, spazio perfetto */
+  align-items: center !important;
+}
+
+.footer-logo {
+  height: 180px !important;  /* VISIBILE e dominante */
+  width: auto !important;
+  max-width: 220px !important;
+}
+
+.footer-top {
+  margin-bottom: 0.5rem;    /* Meno spazio sotto */
+}
