@@ -479,7 +479,7 @@ footer p {
 }
 
 .logo-img {
-  height: 120px !important;   /* Navbar: alto e dominante */
+  height: 55 !important;   /* Navbar: alto e dominante */
   max-width: 260px !important;
   width: auto !important;
 }
@@ -507,4 +507,5 @@ footer p {
 
 .footer-top {
   margin-bottom: 0.5rem;    /* Meno spazio sotto */
+
 }
