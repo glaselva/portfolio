@@ -171,11 +171,20 @@ nav a:hover {
 
 .section {
     padding: 100px 20px;
+    background: #000;
 }
 
 .section-alt {
     padding: 100px 20px;
-    background: var(--bg-alt);
+    background: #000;
+}
+
+#about {
+    background: radial-gradient(circle at bottom right, #111 0, #050505 40%, #000 100%);
+}
+
+#projects {
+    background: radial-gradient(circle at top right, #111 0, #050505 40%, #000 100%);
 }
 
 .section-inner {
@@ -353,7 +362,7 @@ nav a:hover {
 footer {
     padding: 30px 20px;
     text-align: center;
-    background: #050505;
+    background: #000;
     border-top: 1px solid var(--border-color);
 }
 
